@@ -1,8 +1,8 @@
 Descrição
-Precisamos desenvolver uma pequena interface que simule o funcionamento de saque em um caixa eletrônico. O usuário deve poder inserir o valor desejado e visualizar quais notas o caixa irá disponibilizar.
+Interface que simula o funcionamento de saque em um caixa eletrônico. O usuário deve poder inserir o valor desejado e visualizar quais notas o caixa irá disponibilizar.
 
-Requisitos técnicos e funcionais
-Desenvolver utilizando HTML, CSS e Javascript;
+Requisitos técnicos e funcionais:
+Desenvolvido utilizando HTML, CSS/SASS e Javascript;
 O caixa deve entregar sempre o menor número possível de notas;
 O caixa deve validar se é possível sacar o valor solicitado com as notas disponíveis;
 As notas disponíveis são: R$ 100,00; R$ 50,00; R$ 20,00 e R$ 10,00;
