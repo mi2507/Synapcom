@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Sybank</title>
+</head>
+<body class="balance">
+    <div class="balance_desk">
+        <img class="balance_img" src="/img/Rectangle.png" alt="" srcset="">
+    <div class="balance_title container">
+        <h2 class="subtitle">Saldo disponível</h2>
+      </div>
+      <div>
+      <p class="subtitle_value container">R$ 1.234,56</p>
+    </div>
+    <div class="balance_subTitle">
+        <h2 class="subtitle">Últimas transações</h2>
+    </div>
+ <div class="date_desk">
+    <p class="subtitle"> 1 dia atrás </p>
+ </div>
+    <div>
+         <div class="extract_debit">
+        <ul class="extract">
+            <li><button class="btn_debit"></button></li>
+            <div class="extract_debit">
+            
+            <p class="debit">R$34,56</p>
+            <p class="description">Savana Bar</p>  
+        </div>
+        <div class="date_mobile">
+            <p class="description_date1"> 1 dia atrás </p>
+        </div>
+   
+        </ul>
+    </div>
+    <div>
+        <ul class="extract">
+            <li><button class="btn_debit"></button></li>
+            <div class="extract_debit">
+            <p class="debit">R$12,34</p>
+            <p class="description">Drogaria Vila Olimpia</p>  
+        </div>
+        <div class="date_mobile">
+            <p class="description_date"> 1 dia atrás </p>
+        </div>
+   
+        </ul>
+    </div>
+    <div>
+        <ul class="extract">
+            <li><button class="btn_debit"></button></li>
+            <div class="extract_debit">
+            <p class="debit">R$234,56</p>
+            <p class="description">Savana Bar</p>  
+        </div>
+        <div class="date_mobile">
+            <p class="description_date1"> 1 dia atrás </p>
+        </div>
+   
+        </ul>
+    </div>
+    <div class="date_desk">
+        <p class="subtitle"> 2 dia atrás </p>
+     </div>
+    <div>
+        <ul class="extract">
+            <li><button class="btn_debit"></button></li>
+            <div class="extract_debit">
+            <p class="debit">R$6.789,10</p>
+            <p class="description">Adiantamento salário</p>  
+        </div>
+        <div class="date_mobile">
+            <p class="description_date"> 2 dias atrás </p>
+        </div>
+   
+        </ul>
+    </div>
+    <div>
+        <ul class="extract">
+            <li><button class="btn_debit"></button></li>
+            <div class="extract_debit">
+            <p class="debit">R$12,34</p>
+            <p class="description">Garagem restaurante</p>  
+        </div>
+        <div class="date_mobile">
+            <p class="description_date"> 2 dias atrás </p>
+        </div>
+   
+        </ul>
+    </div>
+    <div class="date_desk">
+        <p class="subtitle"> 3 dia atrás </p>
+     </div>
+    <div>
+        <ul class="extract">
+            <li><button class="btn_debit"></button></li>
+            <div class="extract_debit">
+            <p class="debit">R$22,34</p>
+            <p class="description">Savana Bar</p>  
+        </div>
+        <div class="date_mobile">
+            <p class="description_date1"> 3 dias atrás </p>
+        </div>
+        </ul>
+    </div>
+    </div>
+</div>
+
+<div class="home_desktop">
+    <div class="container">
+        <ul class="nav_Sybank">
+          <li>
+            <img
+              class="nav_Sybanklogo"
+              src="/img/Logo.png"
+              alt="logotipo do banco"
+            />
+          </li>
+          <li>
+            <img
+              class="nav_Sybankperfil"
+              src="/img/Foto Perfil.png"
+              alt="foto de perfil"
+            />
+          </li>
+        </ul>
+      </div>
+   
+        <div class="extract_Title">
+          <h1 class="title">Caixa eletrônico</h1>
+        </div>
+  
+      
+          <div class="extract_subTitle">
+            <h2 class="subtitle">Escolha o valor que deseja sacar</h2>
+           </div>
+  
+           <form name="vlrForm" id="vlrForm" action="#">
+          <div class="extract_value">
+  <input id="valor" type="number" name="valor" placeholder="R$" min="30"/>
+          </div> 
+  
+  
+          <div class="extract_Money">
+            <p class="money">Notas disponíveis</p>
+  
+              </div>
+              <div>
+                <img
+                  class="extract_notes"
+                  src="/img/money.png"
+                  alt="imagem das notas disponiveis no caixa "
+                />
+              </div>         
+        </div>
+
+        <div class="extract_button">
+            <input class="btn_next" type="submit" value="&rarr;"
+            onclick="calcularSaque()"/>
+            </div>
+      
+      <script src="./index.js"></script>
+</div>
+</body>
+</html>

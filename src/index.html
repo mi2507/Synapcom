@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Sybank</title>
+  </head>
+  <body>
+
+     <div class="container">
+      <ul class="nav_Sybank">
+        <li>
+          <img
+            class="nav_Sybanklogo"
+            src="/img/Logo.png"
+            alt="logotipo do banco"
+          />
+        </li>
+        <li>
+          <img
+            class="nav_Sybankperfil"
+            src="/img/Foto Perfil.png"
+            alt="foto de perfil"
+          />
+        </li>
+      </ul>
+    </div>
+ 
+      <div class="content_Title container">
+        <h1 class="title">Caixa eletrônico</h1>
+      </div>
+
+    
+        <div class="content_subTitle container">
+          <h2 class="subtitle">Escolha o valor que deseja sacar</h2>
+         </div>
+
+         <form name="vlrForm" id="vlrForm" action="#">
+        <div class="content_Value container">
+<input id="valor" type="number" name="valor" placeholder="R$" min="30"/>
+        </div> 
+
+
+        <div class="content_Money container">
+          <p class="money">Notas disponíveis</p>
+
+            </div>
+            <div>
+              <img
+                class="notes container"
+                src="/img/money.png"
+                alt="imagem das notas disponiveis no caixa "
+              />
+            </div>
+            </div>
+
+          <div class="nav_button container">
+          <input class="btn_next" type="submit" value="&rarr;"
+          onclick="calcularSaque()"/>
+          </div>
+       
+    <footer class="footer_icons">
+      
+      <ul class="footer">
+        <li><img class="logo_footer" src="/img/Logoy.png" alt="" srcset=""></li>
+        <li><img src="/img/moneyfooter.png" alt="moeda" srcset="" /></li>
+        <li><img src="/img/pigfooter.png" alt="cofre de porquinho" srcset="" /></li>
+        <li><img src="/img/dashboard.png" alt="grafico" srcset="" /></li>
+        <li class="character">&rlhar;</li>
+        <a class="account" href="./saldo.html"> conta &xwedge; </a>
+      </ul>
+      <a class="account_footer" href="./saldo.html">&gt;</a>
+        
+     
+    </footer>  
+    
+    <script src="./index.js"></script>
+  </body>
+</html>
+

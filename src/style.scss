@@ -1,0 +1,695 @@
+// // colors
+$Synapcom: #00f9ff;
+$Gradiente: linear-gradient(180deg, #00f9ff 0%, #83fcff 100%);
+$Neutro0: #2d2f36;
+$Neutro1: #4a4c50;
+$Neutro2: #777c81;
+$Neutro3: #9ea3a8;
+$Neutro4: #b8bdc2;
+$Neutro6: #e7ebf2;
+$Neutro8: #ffffff;
+$Slate: #836fff;
+$Blue: #0000ff;
+
+body {
+  margin: 0 auto;
+  background-color: $Neutro8;
+  font-family: "Montserrat", sans-serif;
+  @media only screen and (min-width: 600px) {
+    height: 772px;
+    border: 10px solid #2d2f36;
+    border-radius: 6px;
+  }
+}
+
+.teste h4 {
+  font-size: 30px;
+  color: $Neutro0;
+}
+
+.container {
+  display: flex;
+  margin: 22px 16px 0;
+}
+
+.nav_Sybank {
+  margin: 0 auto;
+  display: flex;
+  list-style: none;
+  padding: 0px 0px 8px;
+}
+
+.nav_Sybanklogo {
+  width: 100px;
+  padding: 8px 136px 0px 0px;
+  @media only screen and (min-width: 600px) {
+    display: none;
+  }
+}
+
+.nav_Sybankperfil {
+  margin-left: 80px;
+  @media only screen and (min-width: 600px) {
+    position: absolute;
+    right: 28px;
+  }
+}
+
+.content_Title {
+  .title {
+    margin: 0;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 17px;
+    line-height: 16px;
+    color: $Neutro2;
+    @media only screen and (min-width: 600px) {
+      font-size: 21px;
+      margin: 0 72px;
+    }
+  }
+}
+
+.content_subTitle {
+  margin-top: 62px;
+  @media only screen and (min-width: 600px) {
+    margin-top: 152px;
+  }
+  .subtitle {
+    font-size: 14px;
+    font-style: normal;
+    color: $Neutro4;
+    margin: 0;
+    letter-spacing: 0.5px;
+    @media only screen and (min-width: 600px) {
+      margin: 0 auto;
+      font-size: 26px;
+      font-weight: 600;
+    }
+  }
+}
+
+//valores.html
+.content_notesValue {
+  display: flex;
+  margin: 24px 16px 0;
+  @media only screen and (min-width: 600px) {
+    margin: 16px 598px;
+  }
+}
+.content_qtde {
+  display: flex;
+  margin: 6px 16px 0;
+  @media only screen and (min-width: 600px) {
+    margin-left: 38%;
+  }
+}
+
+input[type="number" i] {
+  font-size: 30px;
+  color: $Neutro1;
+  padding: 0px;
+  width: 100%;
+  border: none;
+  background-color: transparent;
+  @media only screen and (min-width: 600px) {
+    width: 29%;
+    margin: 0 auto;
+    font-size: 60px;
+    font-weight: 400;
+    box-shadow: 0 0 0 0;
+    outline: 0;
+  }
+}
+
+.content_Money {
+  margin-top: 32px;
+  .money {
+    font-size: 14px;
+    color: $Neutro1;
+    line-height: 16px;
+    font-weight: 500;
+    @media only screen and (min-width: 600px) {
+      margin: 0 auto;
+      margin-top: 42px;
+      font-size: 18px;
+      padding-right: 316px;
+    }
+  }
+}
+.notes {
+  width: 90%;
+  margin: 0 16px 0;
+  @media only screen and (min-width: 600px) {
+    margin: 0 auto;
+    padding: 8px 48px 0 0;
+    width: 26%;
+  }
+}
+
+.nav_button {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 42%;
+  @media only screen and (min-width: 600px) {
+    margin: 0 0 71px;
+    display: flex;
+    justify-content: flex-end;
+    margin: -221px 600px 0;
+  }
+  .btn_next {
+    height: 42px;
+    width: 42px;
+    border-radius: 50%;
+    border-color: $Synapcom;
+    font-size: 28px;
+    background-color: $Synapcom;
+    @media only screen and (min-width: 600px) {
+      height: 56px;
+      width: 56px;
+      border-radius: 50%;
+      font-size: 34px;
+    }
+  }
+}
+.btn_next:hover {
+  border-color: $Blue;
+}
+
+.footer_icons {
+  background-color: $Neutro0;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  @media only screen and (min-width: 600px) {
+    display: table;
+    width: auto;
+  }
+
+  li {
+    padding: 16px 12px 0;
+    color: #fff;
+    font-size: 32px;
+    @media only screen and (min-width: 600px) {
+      padding: 0px;
+    }
+    .character {
+      padding: 24px 16px 0;
+      color: #fff;
+    }
+  }
+
+  .account {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    margin-left: 16px;
+    margin: 27px 7px 0px;
+    text-decoration: none;
+    @media only screen and (min-width: 600px) {
+      display: none;
+    }
+  }
+}
+.account:hover {
+  color: $Blue;
+}
+.character:hover {
+  color: $Blue;
+}
+.account_footer {
+  display: none;
+  @media only screen and (min-width: 600px) {
+    display: table;
+    color: #fff;
+    font-size: 32px;
+    font-weight: 500;
+    text-decoration: none;
+    margin: 0px 16px 24px;
+  }
+}
+
+.footer {
+  margin: 0;
+  display: flex;
+  list-style: none;
+  padding: 0px 0px 0px 4px;
+  @media only screen and (min-width: 600px) {
+    display: inline-table;
+    padding: 65px 0px 266px;
+  }
+}
+
+.logo_footer {
+  display: none;
+  @media only screen and (min-width: 600px) {
+    display: inline-table;
+    padding-bottom: 172px;
+    margin-left: 8px;
+  }
+}
+
+//retirar.html
+.content_Remove {
+  margin-top: 34%;
+  text-align: center;
+  @media only screen and (min-width: 600px) {
+    margin-top: 12%;
+  }
+  .remove_img {
+    @media only screen and (min-width: 600px) {
+      width: 200px;
+      height: 156px;
+      margin-bottom: 16px;
+    }
+  }
+}
+
+.remove_Title {
+  .title {
+    margin: 0;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 17px;
+    line-height: 16px;
+    color: $Neutro2;
+    text-align: center;
+    @media only screen and (min-width: 600px) {
+      font-size: 32px;
+      font-weight: 500;
+    }
+  }
+}
+
+.remove_buttonBack {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 50%;
+  @media only screen and (min-width: 600px) {
+    margin: 140px 0px 0px 813px;
+  }
+  .remove_back {
+    background-color: #ffffff;
+    border-color: #00f9ff;
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    font-size: 30px;
+    a {
+      text-decoration: none;
+    }
+  }
+}
+
+.remove_back:hover {
+  border-color: $Blue;
+}
+
+.central_buttonBack {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 20%;
+  @media only screen and (min-width: 600px) {
+    margin-top: 6%;
+    margin-left: 40%;
+  }
+  .btn_back {
+    background-color: #ffffff;
+    border-color: #00f9ff;
+    height: 42px;
+    width: 42px;
+    border-radius: 50%;
+    font-size: 28px;
+    a {
+      text-decoration: none;
+    }
+    @media only screen and (min-width: 600px) {
+      margin: 0 8px 0 -60px;
+    }
+  }
+}
+
+.hundred_buttonBack {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 42%;
+  @media only screen and (min-width: 600px) {
+    margin: 216px 606px 0 606px;
+  }
+
+  .btn_back {
+    background-color: #ffffff;
+    border-color: #00f9ff;
+    height: 42px;
+    width: 42px;
+    border-radius: 50%;
+    font-size: 28px;
+    a {
+      text-decoration: none;
+    }
+  }
+}
+
+.btn_confirm {
+  background-color: $Synapcom;
+  border: none;
+  border-radius: 40px;
+  padding: 12px 72px;
+  margin-left: 32%;
+  font-size: 13px;
+  text-transform: uppercase;
+  line-height: 16px;
+  letter-spacing: 1.25px;
+  color: $Neutro1;
+  font-weight: bold;
+  @media only screen and (min-width: 600px) {
+    margin-left: 82%;
+  }
+}
+
+.img_value {
+  height: 86px;
+  @media only screen and (min-width: 600px) {
+    width: 224px;
+    height: 124px;
+  }
+}
+
+.qte {
+  margin: 0;
+  padding: 0 72px 0 80px;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: $Neutro2;
+  letter-spacing: 0.5px;
+  text-align: center;
+  @media only screen and (min-width: 600px) {
+    padding: 0px 96px;
+  }
+}
+.nav_buttonBack {
+  display: flex;
+  margin-top: 40%;
+  @media only screen and (min-width: 600px) {
+    margin: 140px 0px 0px 614px;
+  }
+  .btn_back {
+    background-color: #ffffff;
+    border-color: #00f9ff;
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    font-size: 30px;
+    a {
+      text-decoration: none;
+    }
+  }
+}
+.btn_back:hover {
+  border-color: $Blue;
+}
+
+// valores3.html
+.central_notesValue {
+  text-align: center;
+  margin-top: 16px;
+}
+.central_qte {
+  margin-left: 0%;
+  @media only screen and (min-width: 600px) {
+    margin-left: 8%;
+  }
+}
+
+//indisponivel.html
+.unavailable_buttonBack {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 88%;
+  @media only screen and (min-width: 600px) {
+    margin: 264px 0px 0px 820px;
+  }
+  .btn_back {
+    background-color: #ffffff;
+    border-color: #00f9ff;
+    height: 42px;
+    width: 42px;
+    border-radius: 50%;
+    font-size: 28px;
+    a {
+      text-decoration: none;
+    }
+  }
+}
+
+// saldo.html
+.balance {
+  display: flex;
+  @media only screen and (max-width: 600px) {
+    background-color: $Neutro0;
+  }
+  .balance_desk {
+    background-color: $Neutro0;
+    @media only screen and (max-width: 600px) {
+      // width: 100%;
+    }
+  }
+  .balance_img {
+    display: none;
+    @media only screen and (max-width: 600px) {
+      display: flex;
+      padding: 8px 0;
+      margin: 0 auto;
+    }
+  }
+}
+
+.balance_title {
+  margin: 144px 16px 0;
+  color: $Neutro4;
+  @media only screen and (max-width: 600px) {
+    margin: 18px 16px 0;
+  }
+  .subtitle {
+    color: $Neutro4;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16px;
+    @media only screen and (max-width: 600px) {
+      font-weight: 500;
+    }
+  }
+}
+.subtitle_value {
+  margin: 0 16px;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 16px;
+  color: $Neutro8;
+  @media only screen and (max-width: 600px) {
+    font-size: 23px;
+  }
+}
+
+.balance_subTitle {
+  margin: 44px 16px 0;
+  .subtitle {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16px;
+    color: $Neutro4;
+    @media only screen and (max-width: 600px) {
+      font-size: 16px;
+      font-weight: 500;
+    }
+  }
+}
+
+.date_desk {
+  margin: 18px 16px;
+  @media only screen and (max-width: 600px) {
+    display: none;
+  }
+  .subtitle {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16px;
+    color: #b8bdc2;
+  }
+}
+
+.btn_debit {
+  background-color: transparent;
+  border-color: $Synapcom;
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+.btn_debit:hover {
+  border-color: $Slate;
+}
+
+.extract {
+  display: flex;
+  list-style: none;
+  padding: 0px;
+  margin: 8px 16px;
+  @media only screen and (max-width: 600px) {
+    margin: 24px 12px;
+  }
+}
+
+.extract_debit {
+  .debit {
+    font-weight: 700;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 16px;
+    letter-spacing: 0.5px;
+    color: $Neutro8;
+    margin: 0;
+  }
+  .description {
+    margin: 4px;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.5px;
+    color: $Neutro8;
+  }
+}
+
+.date_mobile {
+  display: none;
+  @media only screen and (max-width: 600px) {
+    display: flex;
+  }
+}
+.description_date {
+  margin: 4px;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.5px;
+  color: $Neutro8;
+  padding: 0 0 0 32px;
+}
+.description_date1 {
+  margin: 4px;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.5px;
+  color: $Neutro8;
+  padding: 0 0 0 107px;
+  @media only screen and (max-width: 600px) {
+    display: flex;
+  }
+}
+
+.home_desktop {
+  background-color: $Neutro8;
+  width: 86%;
+  @media only screen and (max-width: 600px) {
+    display: none;
+  }
+}
+.extract_Title {
+  .title {
+    @media only screen and (min-width: 600px) {
+      margin: 0;
+      font-weight: 700;
+      font-style: normal;
+      font-size: 17px;
+      line-height: 16px;
+      color: $Neutro2;
+      margin: 8px 16px 0;
+    }
+  }
+}
+
+.extract_subTitle {
+  margin-top: 62px;
+  @media only screen and (min-width: 600px) {
+    margin-top: 144px;
+    padding-left: 33%;
+  }
+  .subtitle {
+    font-size: 14px;
+    font-style: normal;
+    color: $Neutro4;
+    margin: 0;
+    letter-spacing: 0.5px;
+    @media only screen and (min-width: 600px) {
+      margin: 0 auto;
+      font-size: 26px;
+      font-weight: 600;
+    }
+  }
+}
+.extract_value {
+  margin-left: 33%;
+  line-height: 8;
+  #valor {
+    width: 44%;
+  }
+}
+
+.extract_button {
+  display: none;
+  @media only screen and (min-width: 600px) {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 15%;
+    margin-left: -34%;
+  }
+  .btn_next {
+    height: 42px;
+    width: 42px;
+    border-radius: 50%;
+    border-color: $Synapcom;
+    font-size: 28px;
+    background-color: $Synapcom;
+    @media only screen and (min-width: 600px) {
+      height: 56px;
+      width: 56px;
+      border-radius: 50%;
+      font-size: 34px;
+    }
+  }
+}
+.btn_next:hover {
+  border-color: $Blue;
+}
+
+.extract_Money {
+  margin-top: 32px;
+
+  .money {
+    font-size: 14px;
+    color: $Neutro1;
+    line-height: 16px;
+    font-weight: 500;
+    @media only screen and (min-width: 600px) {
+      margin: 0 auto;
+      margin-top: 42px;
+      font-size: 18px;
+      margin-left: 33%;
+    }
+  }
+}
+.extract_notes {
+  @media only screen and (min-width: 600px) {
+    padding-left: 33%;
+    width: 26%;
+    margin-top: 1%;
+  }
+}
